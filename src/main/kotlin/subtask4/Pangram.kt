@@ -4,8 +4,8 @@ class Pangram {
 
     // TODO: Complete the following function
     fun getResult(inputString: String): String {
-        //throw NotImplementedError("Not implemented")
-        var words = inputString.split(" ").toMutableList()
+        throw NotImplementedError("Not implemented")}}
+        /*var words = inputString.split(" ").toMutableList()
         var i=0
         var j=0
         var x = 0
@@ -33,7 +33,5 @@ class Pangram {
                 g = 0
             }
             x = 0
-        }
-        return words.toString()
-    }
-}
+        }*/
+
