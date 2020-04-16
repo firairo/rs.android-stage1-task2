@@ -17,7 +17,7 @@ class DateFormatter {
         var year=year.toInt()
 
 
-        var Cal: Calendar =Calendar.getInstance()
+        var Cal: Calendar =Calendar.getInstance(Locale("RU"))
         Cal.set(year,month-1,day)
 
         var SimpleDateFormat: SimpleDateFormat = SimpleDateFormat("dd MMMM, EEEE")
